@@ -1,0 +1,117 @@
+Initialize engine version: 5.3.4f1 (fdbb5133b820)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     2103 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\UnityEngine.Purchasing.dll (this message is harmless)
+Loading C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\UnityEngine.Purchasing.dll into Unity Child Domain
+- Completed reload, in  0.109 seconds
+Platform assembly: C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\DELL\Documents\StarSeeker\StarSeeker_Data\Managed\System.dll (this message is harmless)
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 63.917450 ms
+NotImplementedException: Facebook API does not yet support this platform
+  at Facebook.Unity.FB.Init (System.String appId, Boolean cookie, Boolean logging, Boolean status, Boolean xfbml, Boolean frictionlessRequests, System.String authResponse, System.String javascriptSDKLocale, Facebook.Unity.HideUnityDelegate onHideUnity, Facebook.Unity.InitDelegate onInitComplete) [0x00000] in <filename unknown>:0 
+  at Facebook.Unity.FB.Init (Facebook.Unity.InitDelegate onInitComplete, Facebook.Unity.HideUnityDelegate onHideUnity, System.String authResponse) [0x00000] in <filename unknown>:0 
+  at FaceBookInit.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1210 -> priority: 1 
+NullReferenceException: Facebook object is not yet loaded.  Did you call FB.Init()?
+  at Facebook.Unity.FB.get_FacebookImpl () [0x00000] in <filename unknown>:0 
+  at Facebook.Unity.FB.LogInWithReadPermissions (IEnumerable`1 permissions, Facebook.Unity.FacebookDelegate`1 callback) [0x00000] in <filename unknown>:0 
+  at FaceBookLogin.Login () [0x00000] in <filename unknown>:0 
+  at FaceBookLogin.OnLoginButtonClicked () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Facebook object is not yet loaded.  Did you call FB.Init()?
+  at Facebook.Unity.FB.get_FacebookImpl () [0x00000] in <filename unknown>:0 
+  at Facebook.Unity.FB.LogInWithReadPermissions (IEnumerable`1 permissions, Facebook.Unity.FacebookDelegate`1 callback) [0x00000] in <filename unknown>:0 
+  at FaceBookLogin.Login () [0x00000] in <filename unknown>:0 
+  at FaceBookLogin.OnLoginButtonClicked () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Facebook object is not yet loaded.  Did you call FB.Init()?
+  at Facebook.Unity.FB.get_FacebookImpl () [0x00000] in <filename unknown>:0 
+  at Facebook.Unity.FB.LogInWithReadPermissions (IEnumerable`1 permissions, Facebook.Unity.FacebookDelegate`1 callback) [0x00000] in <filename unknown>:0 
+  at FaceBookLogin.Login () [0x00000] in <filename unknown>:0 
+  at FaceBookLogin.OnLoginButtonClicked () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+

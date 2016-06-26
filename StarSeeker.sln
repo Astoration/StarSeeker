@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarSeeker.CSharp.Plugins", "StarSeeker.CSharp.Plugins.csproj", "{E1B7006D-32D9-0F04-98D0-4295DED13742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarSeeker.CSharp", "StarSeeker.CSharp.csproj", "{E000FC15-6E60-A823-9B4E-9C2932D201EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarSeeker.CSharp.Editor", "StarSeeker.CSharp.Editor.csproj", "{9268D461-D57C-D500-6066-9C607331069C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1B7006D-32D9-0F04-98D0-4295DED13742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B7006D-32D9-0F04-98D0-4295DED13742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B7006D-32D9-0F04-98D0-4295DED13742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B7006D-32D9-0F04-98D0-4295DED13742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E000FC15-6E60-A823-9B4E-9C2932D201EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E000FC15-6E60-A823-9B4E-9C2932D201EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E000FC15-6E60-A823-9B4E-9C2932D201EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E000FC15-6E60-A823-9B4E-9C2932D201EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9268D461-D57C-D500-6066-9C607331069C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9268D461-D57C-D500-6066-9C607331069C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9268D461-D57C-D500-6066-9C607331069C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9268D461-D57C-D500-6066-9C607331069C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
