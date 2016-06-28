@@ -9,23 +9,8 @@ public class DrawingManager : MonoBehaviour {
     public Texture2D[] MagicTexture;
 
     void Start () {
-        SetTextureImporterFormat(baseTexture, true);
-	}
 
-    public static void SetTextureImporterFormat(Texture2D texture, bool isReadable)
-    {
-        if (null == texture) return;
-
-        string assetPath = AssetDatabase.GetAssetPath(texture);
-        var tImporter = AssetImporter.GetAtPath(assetPath) as TextureImporter;
-        if (tImporter != null)
-        {
-            tImporter.textureType = TextureImporterType.Advanced;
-            tImporter.isReadable = isReadable;
-            AssetDatabase.ImportAsset(assetPath);
-            AssetDatabase.Refresh();
-        }
-    }
+     }
     void OnGUI()
     {
         GUI.DrawTexture(new Rect(new Vector2(Screen.width/2-(Screen.height/2), Screen.height/2 - (Screen.height / 2)), new Vector2(Screen.height,Screen.height)), baseTexture);
