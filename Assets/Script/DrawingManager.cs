@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEditor;
+
 
 public class DrawingManager : MonoBehaviour {
     public Texture2D baseTexture;
