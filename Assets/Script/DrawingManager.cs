@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityEngine.UI;
 
 public class DrawingManager : MonoBehaviour {
     public Texture2D baseTexture;
+    public Text ConsoleLog;
     private Vector2 oldPos=Vector2.zero;
     private Vector2 newPos = Vector2.zero;
     public Texture2D[] MagicTexture;
@@ -15,6 +16,16 @@ public class DrawingManager : MonoBehaviour {
     {
         GUI.DrawTexture(new Rect(new Vector2(Screen.width/2-(Screen.height/2), Screen.height/2 - (Screen.height / 2)), new Vector2(Screen.height,Screen.height)), baseTexture);
     }
+
+    public void ClearImage()
+    {
+        ClearImage(baseTexture);
+    }
+    public void ImageCheck()
+    {
+        ConsoleLog.text = (CompareImage(baseTexture, MagicTexture[0]) + CompareImage(MagicTexture[0], baseTexture))/2 + "%";
+    }
+
     private void ClearImage(Texture2D Texture) {
         for(int i = 0; i < 600; i++)
         {
@@ -80,7 +91,7 @@ public class DrawingManager : MonoBehaviour {
             }
             foreach (Vector2 vec in vectorList)
             {
-                Vector2[] brush = BrushWidth((int)vec.x, (int)vec.y, 4);
+                Vector2[] brush = BrushWidth((int)vec.x, (int)vec.y, 2);
                 foreach (Vector2 brushPoint in brush)
                 {
                     baseTexture.SetPixel((int)brushPoint.x, (int)brushPoint.y, Color.white);

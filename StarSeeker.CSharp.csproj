@@ -67,6 +67,21 @@
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -78,16 +93,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AudienceNetwork\Library\AdHandler.cs" />
-    <Compile Include="Assets\AudienceNetwork\Library\AdSettings.cs" />
-    <Compile Include="Assets\AudienceNetwork\Library\AdUtility.cs" />
-    <Compile Include="Assets\AudienceNetwork\Library\AdView.cs" />
-    <Compile Include="Assets\AudienceNetwork\Library\InterstitialAd.cs" />
-    <Compile Include="Assets\AudienceNetwork\Library\NativeAd.cs" />
-    <Compile Include="Assets\AudienceNetwork\Library\SdkVersion.cs" />
-    <Compile Include="Assets\AudienceNetwork\Samples\AdViewTest.cs" />
-    <Compile Include="Assets\AudienceNetwork\Samples\InterstitialAdTest.cs" />
-    <Compile Include="Assets\AudienceNetwork\Samples\NativeAdTest.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\LogView.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\MenuBase.cs" />
@@ -186,6 +191,7 @@
     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\IFacebookLogger.cs" />
     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\MiniJson.cs" />
     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\Utilities.cs" />
+    <Compile Include="Assets\Script\DebugManager.cs" />
     <Compile Include="Assets\Script\DrawingManager.cs" />
     <Compile Include="Assets\Script\FaceBookInit.cs" />
     <Compile Include="Assets\Script\FaceBookLogin.cs" />
@@ -193,11 +199,9 @@
     <Compile Include="Assets\Script\SkillManager.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\AudienceNetwork\Audience Network README.txt" />
-    <None Include="Assets\AudienceNetwork\Editor\Android\DefaultAndroidManifest.xml" />
     <None Include="Assets\FacebookSDK\SDK\Editor\android\DefaultAndroidManifest.xml" />
     <None Include="Assets\FacebookSDK\SDK\Scripts\Canvas\Resources\JSSDKBindings.txt" />
-    <None Include="Assets\Plugins\Android\res\values\version.xml" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\Shader\CurvedWorld.shader" />
     <None Include="Assets\Shader\CurvedWorld_AxisCurvature.shader" />
     <None Include="Assets\Shader\CurvedWorld_Spherical_Rolloff.shader" />
