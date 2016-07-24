@@ -67,23 +67,11 @@
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Live2DUnity">
+      <HintPath>Assets\Live2D\Live2DUnity.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -194,6 +182,15 @@
   <ItemGroup>
     <None Include="Assets\FacebookSDK\SDK\Editor\android\DefaultAndroidManifest.xml" />
     <None Include="Assets\FacebookSDK\SDK\Scripts\Canvas\Resources\JSSDKBindings.txt" />
+    <None Include="Assets\Live2D\Resources\shader\Live2D-SetupMask.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D-Masked-PremultipliedAlpha.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D-Masked.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D-Mult.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D-MultMasked.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D-NormalAndAdd.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D-NormalAndAddMasked.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D-PremultipliedAlpha.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D.shader" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\Shader\CurvedWorld.shader" />
     <None Include="Assets\Shader\CurvedWorld_AxisCurvature.shader" />

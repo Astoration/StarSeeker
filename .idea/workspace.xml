@@ -1,7 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53cc7d54-3a7a-4caf-891f-e4b301a3bb80" name="Default" comment="" />
+    <list default="true" id="53cc7d54-3a7a-4caf-891f-e4b301a3bb80" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Assets\Script.meta" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Assets\Script\DebugManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Assets\Script\DebugManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Assets\Script\DrawingManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Assets\Script\DrawingManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Assets\Script\FaceBookInit.cs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Assets\Script\FaceBookInit.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Assets\Script\FaceBookLogin.cs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Assets\Script\FaceBookLogin.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Assets\Script\Player.cs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Assets\Script\Player.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Assets\Script\SkillManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Assets\Script\SkillManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Library\metadata\42\42f4f1086c8c5c043a08db45ea44bf1a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Library\metadata\42\42f4f1086c8c5c043a08db45ea44bf1a.info" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Library\metadata\4c\4c530ff16e3cfe9479613e36c1338b0a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Library\metadata\4c\4c530ff16e3cfe9479613e36c1338b0a.info" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Library\metadata\8b\8bed873820a252b4a9a41e8abc8e1c51" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DELL\Documents\StarSeeker\Library\metadata\8b\8bed873820a252b4a9a41e8abc8e1c51.info" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vs/StarSeeker/v14/.suo" afterPath="$PROJECT_DIR$/.vs/StarSeeker/v14/.suo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000001000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000001000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000002000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000002000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000003000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000003000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000004100000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000004100000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000005000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000005000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000005100000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000005100000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000006000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000006000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000006100000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000006100000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000007000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000007000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000007100000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000007100000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000008000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000008000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000008100000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000008100000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000009000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000009000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000a000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000a000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000a100000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000a100000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000c000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000c000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/23/23740055e2b119e40a939138ab8070f8.info" afterPath="$PROJECT_DIR$/Library/metadata/23/23740055e2b119e40a939138ab8070f8.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/3c/3c0ad459c1534645b5d603b7cc258f97" afterPath="$PROJECT_DIR$/Library/metadata/3c/3c0ad459c1534645b5d603b7cc258f97" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/4e/4e505ad81f5b19c4cb6f445d36463955.info" afterPath="$PROJECT_DIR$/Library/metadata/4e/4e505ad81f5b19c4cb6f445d36463955.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/4e/4e505ad81f5b19c4cb6f445d36463955" afterPath="$PROJECT_DIR$/Library/metadata/4e/4e505ad81f5b19c4cb6f445d36463955" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7" afterPath="$PROJECT_DIR$/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/60/6006d4c3f31c75c488e27068b59e738d.info" afterPath="$PROJECT_DIR$/Library/metadata/60/6006d4c3f31c75c488e27068b59e738d.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/60/6006d4c3f31c75c488e27068b59e738d" afterPath="$PROJECT_DIR$/Library/metadata/60/6006d4c3f31c75c488e27068b59e738d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/69/69349cc8df506094baa57cc6aad32692.info" afterPath="$PROJECT_DIR$/Library/metadata/69/69349cc8df506094baa57cc6aad32692.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/69/69349cc8df506094baa57cc6aad32692" afterPath="$PROJECT_DIR$/Library/metadata/69/69349cc8df506094baa57cc6aad32692" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef" afterPath="$PROJECT_DIR$/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/7c/7cbab2be89b54486bbd23a6fe637d30e" afterPath="$PROJECT_DIR$/Library/metadata/7c/7cbab2be89b54486bbd23a6fe637d30e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f" afterPath="$PROJECT_DIR$/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/84/843a2eeddc1d8ab48967000686cdff54.info" afterPath="$PROJECT_DIR$/Library/metadata/84/843a2eeddc1d8ab48967000686cdff54.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/84/843a2eeddc1d8ab48967000686cdff54" afterPath="$PROJECT_DIR$/Library/metadata/84/843a2eeddc1d8ab48967000686cdff54" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/85/852e56802eb941638acbb491814497b0" afterPath="$PROJECT_DIR$/Library/metadata/85/852e56802eb941638acbb491814497b0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba" afterPath="$PROJECT_DIR$/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44" afterPath="$PROJECT_DIR$/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead" afterPath="$PROJECT_DIR$/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/9a/9a235b2c715f8224499cad6f1a11307b.info" afterPath="$PROJECT_DIR$/Library/metadata/9a/9a235b2c715f8224499cad6f1a11307b.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/9a/9a235b2c715f8224499cad6f1a11307b" afterPath="$PROJECT_DIR$/Library/metadata/9a/9a235b2c715f8224499cad6f1a11307b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/AssetServerCacheV3" afterPath="$PROJECT_DIR$/Library/AssetServerCacheV3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scene/InGameScene.unity" afterPath="$PROJECT_DIR$/Assets/Scene/InGameScene.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Materials/ParticleAfterburner.mat" afterPath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Materials/ParticleAfterburner.mat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ProjectSettings.asset" afterPath="$PROJECT_DIR$/Library/ProjectSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptMapper" afterPath="$PROJECT_DIR$/Library/ScriptMapper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StarSeeker.apk" afterPath="$PROJECT_DIR$/StarSeeker.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scene/TitleScene.unity" afterPath="$PROJECT_DIR$/Assets/Scene/TitleScene.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/UnityAssemblies/UnityEditor.Advertisements.dll" afterPath="$PROJECT_DIR$/Library/UnityAssemblies/UnityEditor.Advertisements.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/UnityAssemblies/UnityEditor.EditorTestsRunner.dll" afterPath="$PROJECT_DIR$/Library/UnityAssemblies/UnityEditor.EditorTestsRunner.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/UnityAssemblies/UnityEditor.Graphs.dll" afterPath="$PROJECT_DIR$/Library/UnityAssemblies/UnityEditor.Graphs.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/UnityAssemblies/UnityEditor.Networking.dll" afterPath="$PROJECT_DIR$/Library/UnityAssemblies/UnityEditor.Networking.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/UnityAssemblies/UnityEditor.TreeEditor.dll" afterPath="$PROJECT_DIR$/Library/UnityAssemblies/UnityEditor.TreeEditor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/UnityAssemblies/UnityEditor.UI.dll" afterPath="$PROJECT_DIR$/Library/UnityAssemblies/UnityEditor.UI.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f" afterPath="$PROJECT_DIR$/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/b4/b4c74bd3927afe8488cba1458eb0b331.info" afterPath="$PROJECT_DIR$/Library/metadata/b4/b4c74bd3927afe8488cba1458eb0b331.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/b4/b4c74bd3927afe8488cba1458eb0b331" afterPath="$PROJECT_DIR$/Library/metadata/b4/b4c74bd3927afe8488cba1458eb0b331" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/cc/cc6cc4bba34e81e47a917c6bdd5b6990.info" afterPath="$PROJECT_DIR$/Library/metadata/cc/cc6cc4bba34e81e47a917c6bdd5b6990.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/cc/cc6cc4bba34e81e47a917c6bdd5b6990" afterPath="$PROJECT_DIR$/Library/metadata/cc/cc6cc4bba34e81e47a917c6bdd5b6990" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sprite/dark1.png" afterPath="$PROJECT_DIR$/Assets/Sprite/dark1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sprite/dark2.png" afterPath="$PROJECT_DIR$/Assets/Sprite/dark2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sprite/dark3.png" afterPath="$PROJECT_DIR$/Assets/Sprite/dark3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/ef/ef7c81b8ae0528145a03bd1f70b12dff.info" afterPath="$PROJECT_DIR$/Library/metadata/ef/ef7c81b8ae0528145a03bd1f70b12dff.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/ef/ef7c81b8ae0528145a03bd1f70b12dff" afterPath="$PROJECT_DIR$/Library/metadata/ef/ef7c81b8ae0528145a03bd1f70b12dff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/expandedItems" afterPath="$PROJECT_DIR$/Library/expandedItems" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8" afterPath="$PROJECT_DIR$/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Live2D.meta" afterPath="$PROJECT_DIR$/Assets/Live2D.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png.meta" afterPath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StarSeeker.CSharp.Editor.csproj" afterPath="$PROJECT_DIR$/StarSeeker.CSharp.Editor.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StarSeeker.CSharp.Plugins.csproj" afterPath="$PROJECT_DIR$/StarSeeker.CSharp.Plugins.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StarSeeker.CSharp.csproj" afterPath="$PROJECT_DIR$/StarSeeker.CSharp.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sprite/dark1.png.meta" afterPath="$PROJECT_DIR$/Assets/Sprite/dark1.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/UnityAssemblies/version.txt" afterPath="$PROJECT_DIR$/Library/UnityAssemblies/version.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="StarSeeker.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,9 +144,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
+    <option name="x" value="55" />
     <option name="y" value="-8" />
-    <option name="width" value="1554" />
+    <option name="width" value="1553" />
     <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -62,9 +172,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -117,13 +224,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane />
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assets/Plugins/Android/firebase-common-9.0.2/libs/classes.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StarSeekerAndroid" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -231,11 +341,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
+    <frame x="55" y="-8" width="1553" height="916" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24950495" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />

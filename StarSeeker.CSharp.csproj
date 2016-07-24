@@ -67,23 +67,11 @@
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Live2DUnity">
+      <HintPath>Assets\Live2D\Live2DUnity.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -191,16 +179,64 @@
     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\IFacebookLogger.cs" />
     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\MiniJson.cs" />
     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\Utilities.cs" />
-    <Compile Include="Assets\Script\DebugManager.cs" />
-    <Compile Include="Assets\Script\DrawingManager.cs" />
-    <Compile Include="Assets\Script\FaceBookInit.cs" />
-    <Compile Include="Assets\Script\FaceBookLogin.cs" />
-    <Compile Include="Assets\Script\Player.cs" />
-    <Compile Include="Assets\Script\SkillManager.cs" />
+    <Compile Include="Assets\Live2D\framework\IPlatformManager.cs" />
+    <Compile Include="Assets\Live2D\framework\L2DBaseModel.cs" />
+    <Compile Include="Assets\Live2D\framework\L2DColorConvertUtil.cs" />
+    <Compile Include="Assets\Live2D\framework\L2DExpressionMotion.cs" />
+    <Compile Include="Assets\Live2D\framework\L2DEyeBlink.cs" />
+    <Compile Include="Assets\Live2D\framework\L2DMatrix44.cs" />
+    <Compile Include="Assets\Live2D\framework\L2DModelMatrix.cs" />
+    <Compile Include="Assets\Live2D\framework\L2DMotionManager.cs" />
+    <Compile Include="Assets\Live2D\framework\L2DPhysics.cs" />
+    <Compile Include="Assets\Live2D\framework\L2DPose.cs" />
+    <Compile Include="Assets\Live2D\framework\L2DStandardID.cs" />
+    <Compile Include="Assets\Live2D\framework\L2DTargetPoint.cs" />
+    <Compile Include="Assets\Live2D\framework\L2DViewMatrix.cs" />
+    <Compile Include="Assets\Live2D\framework\Live2DFramework.cs" />
+    <Compile Include="Assets\Scripts\DrawingManager.cs" />
+    <Compile Include="Assets\Scripts\DungeonManager.cs" />
+    <Compile Include="Assets\Scripts\Effect.cs" />
+    <Compile Include="Assets\Scripts\FaceBookInit.cs" />
+    <Compile Include="Assets\Scripts\FaceBookLogin.cs" />
+    <Compile Include="Assets\Scripts\Live2DObject.cs" />
+    <Compile Include="Assets\Scripts\Live2DPlayer.cs" />
+    <Compile Include="Assets\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\Scripts\ParticleRender.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\REST.cs" />
+    <Compile Include="Assets\Scripts\SkillManager.cs" />
+    <Compile Include="Assets\Scripts\SpawnManager.cs" />
+    <Compile Include="Assets\Scripts\SpriteAnimation.cs" />
+    <Compile Include="Assets\Scripts\StatusManager.cs" />
+    <Compile Include="Assets\Scripts\StoryManager.cs" />
+    <Compile Include="Assets\Scripts\UIParticleSystem.cs" />
+    <Compile Include="Assets\Scripts\sample\ButtonChangeModel.cs" />
+    <Compile Include="Assets\Scripts\sample\LAppDefine.cs" />
+    <Compile Include="Assets\Scripts\sample\LAppLive2DManager.cs" />
+    <Compile Include="Assets\Scripts\sample\LAppModel.cs" />
+    <Compile Include="Assets\Scripts\sample\LAppModelProxy.cs" />
+    <Compile Include="Assets\Scripts\sample\LAppView.cs" />
+    <Compile Include="Assets\Scripts\sample\MyGameController.cs" />
+    <Compile Include="Assets\Scripts\sample\PlatformManager.cs" />
+    <Compile Include="Assets\Scripts\utils\AccelHelper.cs" />
+    <Compile Include="Assets\Scripts\utils\FileManager.cs" />
+    <Compile Include="Assets\Scripts\utils\HitAreaUtil.cs" />
+    <Compile Include="Assets\Scripts\utils\ModelSetting.cs" />
+    <Compile Include="Assets\Scripts\utils\ModelSettingJson.cs" />
+    <Compile Include="Assets\Scripts\utils\TouchManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FacebookSDK\SDK\Editor\android\DefaultAndroidManifest.xml" />
     <None Include="Assets\FacebookSDK\SDK\Scripts\Canvas\Resources\JSSDKBindings.txt" />
+    <None Include="Assets\Live2D\Resources\shader\Live2D-SetupMask.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D-Masked-PremultipliedAlpha.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D-Masked.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D-Mult.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D-MultMasked.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D-NormalAndAdd.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D-NormalAndAddMasked.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D-PremultipliedAlpha.shader" />
+    <None Include="Assets\Live2D\Resources\shader\merged\Live2D.shader" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\Shader\CurvedWorld.shader" />
     <None Include="Assets\Shader\CurvedWorld_AxisCurvature.shader" />

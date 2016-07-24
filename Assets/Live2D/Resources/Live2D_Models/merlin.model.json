@@ -1,0 +1,9 @@
+﻿{
+	"type": "Live2D Model Setting",
+	"name": "merlin",
+	"model": "merlin.moc",
+	"textures": [
+		"merlin.2048/texture_00.png",
+		"merlin.2048/texture_01.png"
+	]
+}

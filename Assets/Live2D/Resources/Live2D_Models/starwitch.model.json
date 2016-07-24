@@ -1,0 +1,15 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "starwitch",
+	"model": "starwitch.moc",
+	"textures": [
+		"starwitch.2048/texture_00.png"
+	],
+  "motions": [
+    {
+      "idle": {
+        "file": "starwitch.mtn"
+      }
+    }
+  ]
+}
