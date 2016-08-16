@@ -109,6 +109,9 @@
     <Reference Include="Live2DUnity">
       <HintPath>Assets\Live2D\Live2DUnity.dll</HintPath>
     </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets\Scripts\LitJson.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="StarSeeker.CSharp.Plugins.csproj">

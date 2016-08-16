@@ -73,6 +73,9 @@
     <Reference Include="Live2DUnity">
       <HintPath>Assets\Live2D\Live2DUnity.dll</HintPath>
     </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets\Scripts\LitJson.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs" />

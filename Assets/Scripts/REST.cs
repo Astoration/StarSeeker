@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Experimental.Networking;
+using LitJson;
 
 public class REST : MonoBehaviour
 
@@ -12,6 +14,7 @@ public class REST : MonoBehaviour
         if (!instance) instance = this;
     } 
     public delegate void Callback(WWW www);
+    public delegate void WebCallback(UnityWebRequest www);
 
     public WWW GET(string url, Callback callback)
     {
@@ -57,6 +60,18 @@ public class REST : MonoBehaviour
         StartCoroutine(WaitForRequest(www));
         return www;
     }
+    public UnityWebRequest PUT(string url,string data,WebCallback callback)
+    {
+        UnityWebRequest www = UnityWebRequest.Put(url,System.Text.Encoding.UTF8.GetBytes(data));
+        WaitForRequest(www, callback);
+        return www;
+    }
+    public UnityWebRequest DELETE(string url, WebCallback callback)
+    {
+        UnityWebRequest www = UnityWebRequest.Delete(url);
+        WaitForRequest(www,callback);
+        return www;
+    }
     private IEnumerator WaitForRequest(WWW www, Callback callback)
     {
         yield return www;
@@ -65,5 +80,14 @@ public class REST : MonoBehaviour
     private IEnumerator WaitForRequest(WWW www)
     {
         yield return www;
+    }
+    private IEnumerator WaitForRequest(UnityWebRequest www)
+    {
+        yield return www;
+    }
+    private IEnumerator WaitForRequest(UnityWebRequest www, WebCallback callback)
+    {
+        yield return www.Send();
+        callback(www);
     }
 }

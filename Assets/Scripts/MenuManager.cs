@@ -1,34 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-
+using LitJson;
 
 public class MenuManager : MonoBehaviour {
-    public Text Name, Level;
-	// Use this for initialization
-    public class UserData
-    {
-        string userId;
-        string userName;
-        string masterCharacter;
-        string registerDate;
-        string lastloginDate;
-        int userLevel;
-        string[] friendRequest;
-        string[] clanRequest;
-        string userClan;
-        string[] userFriend;
-        int[] unlockedStage;
-        int golds;
-        int exp;
-        int magicStone;
-    }
+    public Text Name, Level, Gold, Magicstone;
+	
 	void Start () {
-        //string id = PlayerPrefs.GetString("userId");
-        //REST.instance.GET("http://koibito.moe/StarSeeker/users/" + id, delegate (WWW w) {
-        //    UserData user = JsonUtility.FromJson(w.text, UserData);
-        //});
-	}
+        string id = PlayerPrefs.GetString("userId","1805781019651285");
+        REST.instance.GET("http://koibito.moe/StarSeeker/users/" + id, delegate (WWW w)
+        {
+            JsonData user = JsonMapper.ToObject(w.text);
+            Name.text = user["userName"].ToString();
+            Level.text = user["userLevel"].ToString();
+            Gold.text = user["golds"].ToString();
+            Magicstone.text = user["magicStones"].ToString();
+        });
+    }
 	
 	// Update is called once per frame
 	void Update () {
